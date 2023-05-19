@@ -32,3 +32,15 @@ You can also preview changes using PRs, which generates a preview link of the do
 
 - Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
 - Page loads as a 404 - Make sure you are running in a folder with `mint.json`
+
+
+### installing on M2
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+
+```
+brew install vips
+```
